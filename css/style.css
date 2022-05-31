@@ -3,10 +3,6 @@ nav{
     color: white;
 }
 
-.section{
-    padding: 30px 0;
-}
-
 .section_special{
     background-color: rgb(26, 188, 156);
     color: white;
@@ -20,4 +16,49 @@ nav{
 footer{
     background-color: #2c3e50;
     color: white;
+}
+
+.image_special{
+    width: 20%;
+}
+
+.star{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.line-short-special{
+    width: 10%;
+    height: 2px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.line-short {
+    width: 10%;
+    height: 2px;
+    border-radius: 20px;
+    background-color: black;
+}
+
+.star i{
+    margin: 0 10px;
+}
+
+img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+a{
+    padding: 5px 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+    color:white;
+    text-decoration: none;
+}
+
+a > i {
+    padding-right: 5px;
 }
