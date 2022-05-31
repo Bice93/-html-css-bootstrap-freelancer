@@ -13,11 +13,6 @@ nav{
     color: white;
 }
 
-footer{
-    background-color: #2c3e50;
-    color: white;
-}
-
 .image_special{
     width: 20%;
 }
@@ -51,7 +46,7 @@ img{
     border-radius: 20px;
 }
 
-a{
+.download{
     padding: 5px 10px;
     border: 1px solid white;
     border-radius: 5px;
@@ -59,6 +54,37 @@ a{
     text-decoration: none;
 }
 
-a > i {
+.download > i {
     padding-right: 5px;
+}
+
+
+ul{
+    list-style: none;
+}
+
+.section_special_second li{
+    width: 35px;
+    height: 35px;
+    border: 1px solid white;
+    border-radius: 50%;
+    line-height: 30px;
+    display: inline-block;
+}
+
+a{
+    color: white;
+}
+.text_special{
+    color: rgb(26, 188, 156);
+}
+
+/* -----footer----- */
+footer{
+    background-color: #2c3e50;
+    color: white;
+}
+
+footer{
+    font-size: 10px;
 }
