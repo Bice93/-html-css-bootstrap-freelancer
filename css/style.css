@@ -53,12 +53,7 @@ img{
     color:white;
     text-decoration: none;
 }
-
-.download > i {
-    padding-right: 5px;
-}
-
-
+/* -----lista delle icone----- */
 ul{
     list-style: none;
 }
@@ -75,6 +70,7 @@ ul{
 a{
     color: white;
 }
+
 .text_special{
     color: rgb(26, 188, 156);
 }
