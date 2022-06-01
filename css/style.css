@@ -3,6 +3,18 @@ nav{
     color: white;
 }
 
+.ms_top{
+    margin-top: 56px;
+}
+
+.icon_hidden{
+    display: none;
+}
+
+.border_hidden{
+    border: 1px solid white;
+}
+
 .section_special{
     background-color: rgb(26, 188, 156);
     color: white;
@@ -53,6 +65,17 @@ img{
     color:white;
     text-decoration: none;
 }
+/* -----------form------- */
+.button_send{
+    background-color: rgb(26, 188, 156);
+    border: 0;
+}
+.border_form{
+    border: 0;
+    border-bottom: 1px solid grey;
+    border-radius: 0;
+}
+
 /* -----lista delle icone----- */
 ul{
     list-style: none;
@@ -84,3 +107,5 @@ footer{
 footer{
     font-size: 10px;
 }
+
+

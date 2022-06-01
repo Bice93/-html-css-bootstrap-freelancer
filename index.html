@@ -13,13 +13,32 @@
 </head>
 
 <body>
-    <nav>
-        MENU NAVIGAZIONE
-    </nav>
-
+    <header>
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
+            <div class="container">
+              <a class="navbar-brand" href="#">START BOOTSTRAP</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#portfolio">PORTFOLIO</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#about">ABOUT</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contact">CONTACT</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
 
     <main>
-        <section class="section section_special py-4">
+        <section class="section section_special ms_top py-5">
             <div class="container">
                 <div class="row text-center">
                     <div class="col">
@@ -36,47 +55,47 @@
             </div>
         </section>
 
-        <section class="section py-4">
+        <section class="section py-5" id="portfolio">
             <div class="container">
                 <div class="row text-center">
                     <div class="col">
                         <h3>PORTFOLIO</h3>
-                        <div class="star">
+                        <div class="star pb-3">
                             <div class="line-short"> </div>
                             <i class="bi bi-star-fill"></i>
                             <div class="line-short"> </div>
                         </div>
                     </div>
                 </div>
-                <div class="row g-4 mt-2">
-                    <div class="col-12 col-sm-6 col-lg-4">
+                <div class="row g-4">
+                    <div class="col-12 col-md-6 col-lg-4">
                         <img src="./img/cabin.png" alt="">
                     </div>
-                    <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="col-12 col-md-6 col-lg-4">
                         <img src="./img/cake.png" alt="">
                     </div>
-                    <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="col-12 col-md-6 col-lg-4">
                         <img src="./img/circus.png" alt="">
                     </div>
-                    <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="col-12 col-md-6 col-lg-4">
                         <img src="./img/game.png" alt="">
                     </div>
-                    <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="col-12 col-md-6 col-lg-4">
                         <img src="./img/safe.png" alt="">
                     </div>
-                    <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="col-12 col-md-6 col-lg-4">
                         <img src="./img/submarine.png" alt="">
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="section section_special py-4">
+        <section class="section section_special py-5" id="about">
             <div class="container">
                 <div class="row text-center">
                     <div class="col">
                         <h3>ABOUT</h3>
-                        <div class="star">
+                        <div class="star pb-3">
                             <div class="line-short-special"> </div>
                             <i class="bi bi-star-fill"></i>
                             <div class="line-short-special"> </div>
@@ -85,15 +104,15 @@
                 </div>
 
                 <div class="row g-4">
-                    <div class="col-12 col-sm-6">Freelancer is a free bootstrap them created by Start Bootstrap. The
+                    <div class="col-12 col-md-6">Freelancer is a free bootstrap them created by Start Bootstrap. The
                         download includeds the complete source files including HTML, CSS and JavaScript as well as
                         optional LESS stylesheets for easy customization. </div>
-                    <div class="col-12 col-sm-6">Whether you're a student looking to showcase your work, a professional
+                    <div class="col-12 col-md-6">Whether you're a student looking to showcase your work, a professional
                         looking to attract clients, or a graphic artist looking to share your projects, this template is
                         the perfect starting point.</div>
                 </div>
 
-                <div class="row text-center mt-3">
+                <div class="row text-center mt-4">
                     <div class="col">
                         <a class="download" href=""><i class="bi bi-download pe-2"></i> Download</a>
                     </div>
@@ -101,7 +120,7 @@
             </div>
         </section>
 
-        <section class="section py-4">
+        <section class="section py-5" id="contact">
             <div class="container">
                 <div class="row text-center">
                     <div class="col">
@@ -111,19 +130,36 @@
                             <i class="bi bi-star-fill"></i>
                             <div class="line-short"> </div>
                         </div>
+<!-- --------------------FORM--------------------------------------- -->
+                        <form class="text-start">
+                            <div class="mb-3">
+                              <input type="text" class="form-control border_form" placeholder="Name">
+                            </div>
+                            <div class="mb-3">
+                              <input type="email" class="form-control border_form" placeholder="Email Address">
+                            </div>
+                            <div class="mb-3">
+                                <input type="text" class="form-control border_form" placeholder="Phone Number">
+                            </div>
+                            <div class="mb-3">
+                                <textarea class="form-control border_form" placeholder="Message" aria-label="With textarea" rows="8"></textarea>
+                            </div>
+                            
+                            <button type="submit" class="btn btn-primary button_send">Send</button>
+                        </form>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="section section_special_second py-4">
+        <section class="section section_special_second py-5">
             <div class="container">
                 <div class="row text-center g-4">
-                    <div class="col-12 col-sm-4">
+                    <div class="col-12 col-md-4">
                         <div>LOCATION</div>
                         <div>2215 John Daniel Drive Clark, MO 54243</div>
                     </div>
-                    <div class="col-12 col-sm-4">
+                    <div class="col-12 col-md-4">
                         <div>AROUND THE WEB</div>
                         <ul class="ps-0">
                             <li class="mx-2"><a href=""><i class="bi bi-facebook"></i></a></li>
@@ -134,9 +170,10 @@
 
                     </div>
 
-                    <div class="col-12 col-sm-4">
+                    <div class="col-12 col-md-4">
                         <div>ABOUT FREELANCER</div>
-                        <P>Freelance is a free to use, open source Bootstrap theme created by <span class="text_special">Start Bootstrap</span>.</P>
+                        <P>Freelance is a free to use, open source Bootstrap theme created by <span
+                                class="text_special">Start Bootstrap</span>.</P>
                     </div>
 
                 </div>
@@ -148,10 +185,14 @@
     <footer>
         <div class="container">
             <div class="row text-center">
-                <div class="col py-4">Copyright &copy; Your Website 2019</div>
+                <div class="col py-5">Copyright &copy; Your Website 2019</div>
             </div>
         </div>
     </footer>
+
+    <!-- ---------------------------------link js---------------------------- -->
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 
 </html>
